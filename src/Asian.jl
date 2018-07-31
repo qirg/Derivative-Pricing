@@ -78,3 +78,6 @@ println("Example 1")
 @time println(f_put_price(10000))
 @time println(f_call_strike(10000))
 @time println(f_put_strike(10000))
+
+#using IJulia
+#notebook()
